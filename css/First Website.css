@@ -1,0 +1,80 @@
+
+#header{
+	text-align: center;
+}
+.title{
+	font-size: 30px;
+	text-align: center;
+}
+#comments{
+	margin-left: 20%;
+}
+#button{
+	text-align: center;
+	margin-left: 15%;
+	font-size: 20px;
+}
+img{
+	width:1000px;
+	 height:500px;
+	float: right;
+	margin-left: 10px;
+margin-right: 20px;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+.paragraph{
+	margin-top: 50px;
+	margin-bottom: 40px;
+	margin-left:30px;
+	margin-right: 50px;
+}
+.section-title-underline {
+  margin: 0 auto 20px;
+  border: 1px solid rgba(33,33,33,0.6);
+}
+
+.AboutUs{
+	text-align: left;
+}
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+	border: 1px solid gray;
+	margin: 2px;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+	
+}
+.text{
+	margin-bottom: 10%;
+	text-align: center;
+	font-size: 30px;
+}
+
+#address{
+	margin-top: 10%;
+	text-align: center;
+	font-size: 30px;
+
+}
+label{
+	margin-right: 10%;
+	margin-left: 10%;
+	font-size: 20px;
+}
+@media screen and (max-width: 680px) {
+	.columns .column {
+		flex-basis: 100%;
+		margin: 0 0 5px 0;
+	}
+}
+
+
